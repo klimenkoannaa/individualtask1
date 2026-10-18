@@ -1,5 +1,3 @@
-"""Тесты HashSet (pytest)."""
-
 import random
 
 import pytest
@@ -8,7 +6,7 @@ from hash_set import HashSet, _HashTable
 
 
 class Collide:
-    """Разные объекты с одинаковым хешем — искусственные коллизии."""
+    """Разные объекты с одинаковым хешем, искусственные коллизии."""
 
     def __init__(self, value: int) -> None:
         self.value = value
